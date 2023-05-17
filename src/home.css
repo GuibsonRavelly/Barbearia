@@ -1,0 +1,100 @@
+@font-face {
+
+    font-family: 'Vikings' ;
+    src: url(VIKING-N.TTF) ;
+  }
+   
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    background: url(/img-barbearia/logo2.png);
+    background-size: cover;
+    
+
+}
+
+
+.home-content {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.home-content h1{
+    font-size: 3.5rem;
+    font-family: 'Vikings';
+    font-weight: 700;
+    line-height: 1.3rem;
+    transition: 3s;
+    
+}
+
+.home-content h1:hover{
+    color: orange;
+    cursor: pointer;
+    letter-spacing: .1em;
+    font-family: 'vina sans';
+}
+
+.home-content .text-animate{
+    position: relative;
+    width: 100%;
+
+}
+
+.home-content .text-animate h3{
+    font-size: 3.2rem;
+    margin-top: 1rem;
+    font-family: 'Vikings';
+    transition: 3s;
+}
+
+.home-content .text-animate h3:hover{
+    color: orange;
+    cursor: pointer;
+    letter-spacing: .1em;
+    font-family: 'vina sans';
+}
+
+
+.btn-box {
+    position: relative;
+    display: flex;
+    width: 30rem;
+    height: 3rem;
+
+}
+
+.btn-box .btn {
+    font-size: 1.8rem;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: 'vina sans';
+    color: rgb(12, 12, 12);
+    background: rgb(243, 241, 241);
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer; 
+    transition: 1s;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+     
+}
+
+.btn-box .btn:hover{
+    color: orange;
+    letter-spacing: .3em;
+    
+}
+
+.btn-box .btn:hover:nth-child(1){
+    background: rgb(15, 15, 15);
+}
+

@@ -1,0 +1,34 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,500&family=Roboto:ital@1&family=Vina+Sans&display=swap');
+ 
+ @font-face {
+    font-family: Vikings;
+    src: url(VikingNormal-36VL.otf) format('truetype');
+    font-weight: normal;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Vikings ', sans-serif;
+    
+    
+}
+
+html{
+    font-size: 62.5%;
+   
+  
+}
+
+
+
+
+
+
+
+

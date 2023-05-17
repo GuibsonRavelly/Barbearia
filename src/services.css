@@ -1,0 +1,43 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: black;
+   
+
+}
+.services h3{
+    font-size: 3rem;
+    font-family: 'vikings';
+    font-weight: 700;
+    padding: 2rem;
+    transition: 3s;
+    color: orange;
+    
+}
+
+.services h3:hover{
+    color: orange;
+    cursor: pointer;
+    letter-spacing: .1em;
+    font-family: 'vina sans';
+}
+
+
+
+.services .tabela{
+    font-size: 20px;
+    padding: 2rem;
+     font-weight: 500;
+     color: white;
+     font-family: 'vina sans';
+     display: flex;
+
+}
+
+
+
+
+
+

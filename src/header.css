@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,500&family=Roboto:ital@1&family=Vina+Sans&display=swap');
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2rem 2%;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+.header img{
+    width: 8rem;
+}
+
+.girar:hover {
+    transform:  rotateY(360deg);
+    transition:  2s;
+    cursor: pointer;
+  }
+
+.logo:hover{
+    background: black;
+}
+
+.navbar a{
+    color: rgb(10, 10, 10);
+    font-family: 'VINA SANS';
+    font-size: 3.2rem;
+    margin-left: 3.5rem;
+    transition:  1s;
+    font-weight: 700;
+    
+}
+
+.navbar a:hover{
+    color: orange;
+    letter-spacing: .1em;
+}
+
+#menu-icon{
+    font-size: 3.4rem;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+
